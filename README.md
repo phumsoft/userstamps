@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.com/PhumsoftUK/Laravel-Userstamps">
+    <a href="https://github.com/flutter/flutter/actions">
         <img src="https://travis-ci.com/PhumsoftUK/Laravel-Userstamps.svg" alt="Build Status">
     </a>
     <a href="https://packagist.org/packages/phumsoft/userstamps">
