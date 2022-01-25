@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.com/WildSideUK/Laravel-Userstamps">
-        <img src="https://travis-ci.com/WildSideUK/Laravel-Userstamps.svg" alt="Build Status">
+    <a href="https://travis-ci.com/PhumsoftUK/Laravel-Userstamps">
+        <img src="https://travis-ci.com/PhumsoftUK/Laravel-Userstamps.svg" alt="Build Status">
     </a>
     <a href="https://packagist.org/packages/phumsoft/userstamps">
         <img src="https://poser.pugx.org/phumsoft/userstamps/d/total.svg" alt="Total Downloads">
@@ -30,7 +30,7 @@ This package requires Laravel 5.2 or later running on PHP 5.6 or higher.
 This package can be installed using composer:
 
 ````
-composer require wildside/userstamps
+composer require Phumsoft/userstamps
 ````
 
 ## Usage
@@ -51,7 +51,7 @@ $table->unsignedBigInteger('updated_by')->nullable();
 You can now load the trait within your model, and userstamps will automatically be maintained:
 
 ```php
-use Wildside\Userstamps\Userstamps;
+use Phumsoft\Userstamps\Userstamps;
 
 class Foo extends Model {
 
@@ -62,7 +62,7 @@ class Foo extends Model {
 Optionally, should you wish to override the names of the `created_by`, `updated_by` or `deleted_by` columns, you can do so by setting the appropriate class constants on your model. Ensure you match these column names in your migration.
 
 ```php
-use Wildside\Userstamps\Userstamps;
+use Phumsoft\Userstamps\Userstamps;
 
 class Foo extends Model {
 
