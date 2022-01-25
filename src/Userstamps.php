@@ -1,6 +1,6 @@
 <?php
 
-namespace Wildside\Userstamps;
+namespace Phumsoft\Userstamps;
 
 trait Userstamps
 {
