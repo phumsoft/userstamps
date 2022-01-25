@@ -30,12 +30,12 @@ trait Userstamps
      */
     public static function registerListeners()
     {
-        static::creating('Wildside\Userstamps\Listeners\Creating@handle');
-        static::updating('Wildside\Userstamps\Listeners\Updating@handle');
+        static::creating('Phumsoft\Userstamps\Listeners\Creating@handle');
+        static::updating('Phumsoft\Userstamps\Listeners\Updating@handle');
 
         if (static::usingSoftDeletes()) {
-            static::deleting('Wildside\Userstamps\Listeners\Deleting@handle');
-            static::restoring('Wildside\Userstamps\Listeners\Restoring@handle');
+            static::deleting('Phumsoft\Userstamps\Listeners\Deleting@handle');
+            static::restoring('Phumsoft\Userstamps\Listeners\Restoring@handle');
         }
     }
 
